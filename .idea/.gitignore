@@ -1,0 +1,79 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/target.mvn
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache/
+bin/
+
+### Docker ###
+# Игнорируем только временные файлы, но не Dockerfile
+docker-compose.override.yml
+.env
+.env.local
+
+### Kubernetes ###
+# Игнорируем локальные конфиги, но не манифесты
+.kube/
+.kubeconfig
+*_override.yaml
+
+### System ###
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+### Environment ###
+.env
+.env.production.local
+.env.test.local
+.env.development.local
+
+### OS ###
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
